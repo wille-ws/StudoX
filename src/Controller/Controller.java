@@ -13,7 +13,8 @@ public class Controller {
 
     public Controller(StudentDao s, Observer ... o) { // Varargs, Observer typ för att säkerhetsställa att endast objekt som implementerar observer ska kunna bli observers
         this.model = s;
-        this.observerList.addAll(Arrays.asList(o)); // Adda alla samtidigt
+        this.observerList.addAll(Arrays.asList(o)); // Adda alla  samtidigt
+
 
     }
 }
